@@ -2,10 +2,10 @@
 """This module contains the type_checking function"""
 
 
-from typing import List
+from typing import List, Tuple, Union
 
 
-def zoom_array(lst: List[int], factor: float = 2) -> List[int]:
+def zoom_array(lst: Union[Tuple, List], factor: Union[int, float] = 2) -> List:
     """Zooms in on an array"""
     zoomed_in: List[int] = [
         item for item in lst
