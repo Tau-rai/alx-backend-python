@@ -1,5 +1,5 @@
 *main.py
 
-__pycache__/*
+*.pyc
 
 .my_cache/*
